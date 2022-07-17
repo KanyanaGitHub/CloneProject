@@ -1,45 +1,45 @@
 print(" Welcome To My Quiz Game \n Interesting Game to Play")
-Player = input(" Do you want to play the game? \n" )
+Player = input(" Do you want to play the game? yes:no \n" )
 if Player.lower() != 'yes':
     print("Good Bye")
     quit()  
 
-name_player = input("Enter Your Name: ")
+name_player = input("Enter Your player Name : ")
 
 print("Let's Start the Game :) ",name_player)
 
 score = 0
 
-answer = input(' What is CPU stands for? \n ')
-if answer.lower() == 'central processing unit':
+answer = input(' What is the abbreviation for Sword art online? \n ')
+if answer.lower() == 'sao':
     print("Correct")
     score += 1
 else:
     print('Wrong')
  
-answer = input(' What is GPU stands for? \n ')
-if answer.lower() == 'graphical processing unit':
+answer = input(' What is the abbreviation for alfheim online? \n ')
+if answer.lower() == 'alo':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
-answer = input(' What is RAM stands for? \n ')
-if answer.lower() == 'random access memory':
+answer = input(' What is the abbreviation for gun gale online? \n ')
+if answer.lower() == 'ggo':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
-answer = input(' What is ROM stands for? \n ')
-if answer.lower() == 'read only memory':
+answer = input(' What is the name of the guild that Yuuki is the leader? \n ')
+if answer.lower() == 'sleeping knight':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
-answer = input(' Mouse is an input device or output device? \n ')
-if answer.lower() == 'input device':
+answer = input(' What weapon does Sinon use in GGO? \n ')
+if answer.lower() == 'sniper rifle':
     print("Correct")
     score += 1
 else:
